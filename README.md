@@ -36,6 +36,7 @@ margin: 4px
 
 <button onclick="randomVideo()">musik random</button>
 <button onclick="randomWebsite()">game random</button>
+<p>ya ini theodore cdm yang buat, ga ngambil punya orang kok</p>
 <script>
 function randomVideo() {
   var videos = [
