@@ -30,7 +30,7 @@ margin: 4px
 
 </head>
 
-<body background="https://www.palmeracehardware.com/cdn/shop/products/E1EFC2_800x.png?v=1611602348">
+<body>
 
 <h1>tombol gabut</h1>
 
