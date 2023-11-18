@@ -30,7 +30,7 @@ margin: 4px
 
 </head>
 
-<body background="Firefly 20231118145720.png">
+<body background="[Firefly 20231118145720.png](https://www.palmeracehardware.com/cdn/shop/products/E1EFC2_800x.png?v=1611602348)">
 
 <h1>tombol gabut</h1>
 
