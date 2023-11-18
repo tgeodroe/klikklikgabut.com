@@ -35,7 +35,7 @@ margin: 4px
 <h1>tombol gabut</h1>
 
 <button onclick="randomVideo()">musik random</button>
-
+<button onclick="randomWebsite()">game random</button>
 <script>
 function randomVideo() {
   var videos = [
@@ -150,6 +150,34 @@ function randomVideo() {
   var randomVideo = videos[randomIndex];
 
   window.location.href = randomVideo;
+}
+
+function randomWebsite() {
+  var videos = [
+    "https://suikagame.com/",
+    "https://trap-thecat.com/",
+    "https://neal.fun/perfect-circle/",
+    "https://nomisio.itch.io/cat",
+    "https://jellymar.io/",
+    "https://krunker.io/",
+    "https://songtrivia2.io/",
+    "https://wordlegame.org/id",
+    "https://sandspiel.club/",
+    "https://musiclab.chromeexperiments.com/kandinsky/",
+    "https://kuku-kube.com/",
+    "https://neal.fun/auction-game/",
+    "https://www.thewikigame.com",
+    "https://paint.toys/",
+    "https://sliding.toys/mystic-square/8-puzzle/daily/",
+    "https://id.akinator.com/",
+    "https://maze.toys/mazes/mini/daily/",
+    "https://gartic.io/"
+    ];
+
+  var randomIndex = Math.floor(Math.random() * videos.length);
+  var randomWebsite = videos[randomIndex];
+
+  window.location.href = randomWebsite;
 }
 </script>
 
