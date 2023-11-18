@@ -172,7 +172,19 @@ function randomWebsite() {
     "https://sliding.toys/mystic-square/8-puzzle/daily/",
     "https://id.akinator.com/",
     "https://maze.toys/mazes/mini/daily/",
-    "https://gartic.io/"
+    "https://gartic.io/",
+    "https://www.foddy.net/Athletics.html",
+    "https://www.linerider.com/",
+    "https://gridland.doublespeakgames.com/",
+    "https://freepacman.org/",
+    "https://quickdraw.withgoogle.com/",
+    "https://www.cbc.ca/kids/games/play/color-pipes",
+    "https://www.agame.com/game/snail-bob",
+    "https://chromedino.com/",
+    "https://abagames.github.io/crisp-game-lib-games/?flipo",
+    "https://slowroads.io/",
+    "https://www.helicopter-game.org/",
+    "https://ncase.itch.io/wbwwb"
     ];
 
   var randomIndex = Math.floor(Math.random() * videos.length);
