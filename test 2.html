@@ -36,7 +36,7 @@ margin: 4px
 <h1>tombol gabut</h1>
 
 <button onclick="randomVideo()">musik random</button>
-
+<button onclick="randomWebsite()">game random</button>
 <script>
 function randomVideo() {
   var videos = [
@@ -151,6 +151,67 @@ function randomVideo() {
   var randomVideo = videos[randomIndex];
 
   window.location.href = randomVideo;
+}
+
+function randomWebsite() {
+  var videos = [
+    "https://suikagame.com/",
+    "https://trap-thecat.com/",
+    "https://neal.fun/perfect-circle/",
+    "https://nomisio.itch.io/cat",
+    "https://jellymar.io/",
+    "https://krunker.io/",
+    "https://songtrivia2.io/",
+    "https://wordlegame.org/id",
+    "https://sandspiel.club/",
+    "https://musiclab.chromeexperiments.com/kandinsky/",
+    "https://kuku-kube.com/",
+    "https://neal.fun/auction-game/",
+    "https://www.thewikigame.com",
+    "https://paint.toys/",
+    "https://sliding.toys/mystic-square/8-puzzle/daily/",
+    "https://id.akinator.com/",
+    "https://maze.toys/mazes/mini/daily/",
+    "https://gartic.io/",
+    "https://www.foddy.net/Athletics.html",
+    "https://www.linerider.com/",
+    "https://gridland.doublespeakgames.com/",
+    "https://freepacman.org/",
+    "https://quickdraw.withgoogle.com/",
+    "https://www.cbc.ca/kids/games/play/color-pipes",
+    "https://www.agame.com/game/snail-bob",
+    "https://chromedino.com/",
+    "https://abagames.github.io/crisp-game-lib-games/?flipo",
+    "https://slowroads.io/",
+    "https://www.helicopter-game.org/",
+    "https://ncase.itch.io/wbwwb",
+    "http://Geo-fs.com",
+    "https://neal.fun/password-game/",
+    "https://humanbenchmark.com/",
+    "https://dood.al/pinktrombone/",
+    "https://www.autodraw.com/",
+    "https://framesynthesis.com/drivingsimulator/maps/",
+    "https://littlealchemy2.com/",
+    "https://stein.world/",
+    "https://ev.io/",
+    "https://armorgames.com/street-skater-game/18047",
+    "https://classic.minecraft.net/?join=FLC9UnPzhSq7v4AT",
+    "https://shellshock.io/",
+    "https://betrayal.io/",
+    "https://www.silvergames.com/do/time-shooter",
+    "https://hexanaut.io/",
+    "https://minigolfclub.io/",
+    "https://acikgoz.itch.io/under-the-sun",
+    "https://www.sushiparty.io/",
+    "https://www.nanobrowserquest.com/",
+    "https://graebor.itch.io/sort-the-court",
+    "https://hole-io.com/"
+    ];
+
+  var randomIndex = Math.floor(Math.random() * videos.length);
+  var randomWebsite = videos[randomIndex];
+
+  window.location.href = randomWebsite;
 }
 </script>
 
