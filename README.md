@@ -8,24 +8,25 @@ body {
 }
 
 button {
-  background-color: #4CAF50;
-  border: none;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: #af4c4c;
   color: white;
-  padding: 15px
+  border: 2px solid black;
  
 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-
-  
-margin: 4px
+  font-size:
+ 
+16px;
+  margin: 4px
  
 2px;
   cursor: pointer;
 }
-
 </style>
 
 </head>
