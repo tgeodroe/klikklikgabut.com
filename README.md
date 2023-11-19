@@ -31,7 +31,7 @@ button {
 
 </head>
 
-<body>
+<body bgcolor="#b8b4b4">
 
 <h1>tombol gabut</h1>
 
