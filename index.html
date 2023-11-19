@@ -20,7 +20,7 @@ button {
   text-decoration: none;
   display: inline-block;
 16px;
-  margin: 0px
+  margin: 4px
  
 2px;
   cursor: pointer;
@@ -32,9 +32,12 @@ button {
 <body bgcolor="#b8b4b4">
 
 <h1>tombol gabut</h1>
-
-<button onclick="randomVideo()">musik random</button>
-<button onclick="randomWebsite()">game random</button>
+  <table>
+    <tr>  
+      <td><button onclick="randomVideo()">musik random</button></td>
+      <td><button onclick="randomWebsite()">game random</button></td>
+    </tr>
+  </table>
 <p>ya ini theodore cdm yang buat, ga ngambil punya orang kok</p>
 <script>
 function randomVideo() {
