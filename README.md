@@ -184,7 +184,28 @@ function randomWebsite() {
     "https://abagames.github.io/crisp-game-lib-games/?flipo",
     "https://slowroads.io/",
     "https://www.helicopter-game.org/",
-    "https://ncase.itch.io/wbwwb"
+    "https://ncase.itch.io/wbwwb",
+    "http://Geo-fs.com",
+    "https://neal.fun/password-game/",
+    "https://humanbenchmark.com/",
+    "https://dood.al/pinktrombone/",
+    "https://www.autodraw.com/",
+    "https://framesynthesis.com/drivingsimulator/maps/",
+    "https://littlealchemy2.com/",
+    "https://stein.world/",
+    "https://ev.io/",
+    "https://armorgames.com/street-skater-game/18047",
+    "https://classic.minecraft.net/?join=FLC9UnPzhSq7v4AT",
+    "https://shellshock.io/",
+    "https://betrayal.io/",
+    "https://www.silvergames.com/do/time-shooter",
+    "https://hexanaut.io/",
+    "https://minigolfclub.io/",
+    "https://acikgoz.itch.io/under-the-sun",
+    "https://www.sushiparty.io/",
+    "https://www.nanobrowserquest.com/",
+    "https://graebor.itch.io/sort-the-court",
+    "https://hole-io.com/"
     ];
 
   var randomIndex = Math.floor(Math.random() * videos.length);
