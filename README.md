@@ -3,7 +3,7 @@
 <title>klik klik gabut</title>
 <style>
 body {
-  font-family: sans-serif;
+  font-family: fantasy;
   text-align: center;
 }
 
@@ -20,7 +20,7 @@ button {
   text-decoration: none;
   display: inline-block;
   font-size:
- 
+  font-family: fantasy;
 16px;
   margin: 4px
  
